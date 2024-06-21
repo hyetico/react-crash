@@ -15,3 +15,4 @@ Currently, two official plugins are available:
 https://github.com/bradtraversy/react-crash-2024/blob/main/tailwind.config.js
 
 
+"# react-crash" 
