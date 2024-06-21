@@ -6,7 +6,7 @@ const JobListings = ({ isHome = false }) => {
   // const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const recentJobs = jobs.slice(0, 3);
+  const recentJobs = isHome ? jobs.slice(0, 3) : jobs;
   // useEffect(() => {
   //   const fetchJobs = async () => {
   //     const apiUrl = isHome ? "/api/jobs?_limit=3" : "/api/jobs";
