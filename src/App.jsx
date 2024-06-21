@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import MainLayout from "./layouts/MainLayout";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -25,6 +26,7 @@ const App = () => {
           element={<JobPage deleteJob={deleteJob} />}
           loader={jobLoader}
         /> */}
+        <Route path="*" element={<NotFoundPage />} />
       </Route>
     )
   );
