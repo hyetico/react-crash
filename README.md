@@ -16,3 +16,6 @@ https://github.com/bradtraversy/react-crash-2024/blob/main/tailwind.config.js
 
 
 "# react-crash" 
+
+npm run server
+npm run dev
